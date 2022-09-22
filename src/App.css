@@ -1,0 +1,2346 @@
+/*@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+*/.slide {
+  transform: scale(0.5);
+  transition: transform 300ms;
+  opacity: 0.2;
+}
+.activeSlide {
+  transform: scale(1.5);
+  transition: transform 300ms;  
+  opacity: 1;
+}
+.App {
+  text-align:center;
+}
+
+.ss{
+  color: azure;
+  background-color: deeppink;
+}
+.ee{
+  color: crimson;
+  background-color: darkorange;
+  font-size: 40px;
+
+}
+.tt{
+  color: aqua;
+  background-color: black;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/*-------------------header------------*/
+
+
+.header-body{
+  width: ;
+  height: 100px;
+  /*border: 1px solid black;*/
+  background-color: black;
+  margin: auto;
+}
+.header-logo{
+height: 100px;
+width: 400px;
+margin-top: 10px;
+float: left;
+
+}
+.indian-army-logo{
+  width: 300px;
+  height: 70px;
+}
+
+.header-link-body{
+height: 100px;
+width: 1116px;
+float: left;
+/*border: 1px solid grey;*/
+}
+
+.ul-link{
+  margin: auto;
+  margin-top: 40px;
+  width: 900px;
+  height: 35px;
+  /*border: 1px solid grey;*/
+}
+.header-link{
+  /*margin-right: 200px;*/
+color: white;
+text-decoration: none;
+font-size: 18px;
+line-height: 30px;
+height: 30px;
+
+}
+
+
+ul{
+  /*margin-top: 30px;*/
+  margin: auto;
+  padding: 0px;
+
+}
+li{
+  /*height: 20px;*/
+  width: 100px;
+  float: left;
+  list-style: none;
+  display:inline-block;
+  text-align: center;
+  line-height: 30px;
+  border: 1px none red;
+  font-size: 18px;
+  color: white;
+  border-spacing: 10px;
+
+}
+ul li a{
+  text-decoration: none;
+  /*background-color: pink;*/
+  color: white;
+  display: block;
+}
+ul li a:hover{
+  font-size: 20px;
+  color: red;
+  text-decoration:none;
+  background-color:whitesmoke;
+  border-radius: 10px;
+  /*font-weight: bold;*/
+
+}
+ul ul{
+
+  margin-top: 10px;
+}
+.ulul{
+  margin-left: -80px;
+  /*margin-top: 1px;*/
+background-color: grey;
+width: 240px;
+font-size: 15px;
+border: 1px solid black;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+
+}
+.ululul{
+  border: 1px solid black;
+  margin-left: -80px;
+background-color: grey;
+width: 240px;
+font-size: 15px;
+line-height: 20px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px;
+}
+.ululul:hover{
+  background-color: white;
+  color: red;
+  border: 1px hidden black;
+}
+
+.ulul:hover{
+  background-color: white;
+  color: red;
+  border: 1px hidden black;
+}
+ul li ul{
+  display:none;
+}
+ul li:hover ul{
+  display: block;
+  background-color: green;
+}
+/*.header-link-button-li{
+  font-size: 20px;
+  height: 50px;
+  width: 20px;
+  color: red;
+   margin-left: 200px;
+
+}
+.header-link-button-li:hover{
+  width: 20px;
+  height: ;
+  font-size: 10px;
+}*/
+.header-link-button{
+  background-color: lightcyan;
+  margin-left: 190px;
+  font-size: 20px;
+  width: 70px;
+  color: red;
+  
+}
+.header-login-button:hover{
+background-color: red;
+}
+/*=============================Home+ Bootstrap First Heading=====================================*/
+
+
+.first-heading--{
+  background-color: #4b5320;
+  height: 70px;
+  color: white;
+  font-family: fantasy;
+  position: relative;
+  z-index: -1;
+}
+.row-first-heading h2{
+        margin-left: -700px;
+        /*border: 1px hidden black;*/
+        line-height: 70px;
+
+}
+
+
+
+
+
+
+
+
+/*----------------------Army-----home-----------*/
+.indian-army-home-img{
+  margin: auto;
+  width: 100%px;
+  height: 500px;
+  /*border: 1px solid black;*/
+  position: relative;
+  z-index: -1;
+
+}
+.indian-army-home-img img{
+  margin: -10px;
+  width: 100%;
+  height: 500px;
+  
+}
+.home-link-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 4px solid grey;
+}
+
+
+.d-block w-100{
+
+  height: 1000px;
+}
+
+/*--------gallery--------*/
+.gallery-body{
+  background-color: grey;
+  /*height: 1000px;*/
+}
+.gallery-table{
+  width: 600px;
+  height: 300px;
+  /*border: 1px solid gold;*/
+  margin: auto;
+}
+.gallery-table .tr td{
+  height: 40px;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  border: none;
+  background-color:navajowhite;
+  border:1px solid black ;
+
+}
+
+.gallery-table tr td{
+  border:1px solid black;
+  /*background-color:skyblue;*/
+}
+.gallery-table tr td img{
+  height: 300px;
+  width: 605px;
+}
+
+/*------------about-------------*/
+.dd{
+  /*margin-top:0px;*/
+  text-align: center;
+  color:forestgreen;
+  background-color: gold;
+  position: relative;
+  z-index: -1;
+}
+
+
+
+
+
+
+/*-------------=========================HOme=======================-------------*/
+.Leaders-slider{
+ /* width: 99%;*/
+  height: 610px;
+  /*border: 1px solid grey;*/
+  position: relative;
+  z-index: -1;
+}
+.army-home-image{
+  height: 600px;
+  width:100%;
+}
+
+
+
+/*---content---*/
+.back-color{
+  /*background-color: #4FC1E9;*/
+}
+.army-home-content{
+  width: 1200px;
+  height: 630px;
+ /*border:1px solid black;*/
+ margin: auto ;
+ 
+
+}
+.army-home-content-one{
+  width:880px ;
+  height:600px;
+  float: left;
+
+  /*border: 1px solid black;*/
+color: red;
+}
+
+
+
+.army-home-table{
+  /*border:2px solid black;*/
+  /*border: 12px  solid black;*/
+  width: 850px;
+  height: 500px;
+  color: red;
+  border-radius: 10px;
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+
+
+
+ 
+ /*box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;*/
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;*/
+}
+.td-1{
+  width: 190px;
+  height: 190px;
+  background-color:#FC6E51;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+/*box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;*/
+/*box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;*/
+  font-weight: bold ;
+  /*border: 8px solid green;*/
+  /*border: 8px solid #4FC1E9;*/
+  border: 10px solid white;
+
+
+
+}
+.td-1:hover{
+  background-color:#E9573F;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  opacity: .8;
+  
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.td-1 img{
+  /*border:5px solid red;*/
+  border: none;
+  height: 198px;
+  width:260px;
+  /*opacity: 0.5;*/
+
+}
+.td-1 img:hover{
+  opacity: 0.8;
+}
+
+.indian-army-link{
+  text-decoration: none;
+  color: white;
+}
+.indian-army-link:hover{
+  font-weight: bold;
+  color: white;
+  /*color: red;*/
+}
+
+.army-home-content-two{
+   width: 300px;
+   height:600px;
+   float: right;
+   /*border: 1px solid black;*/
+}
+.army-home-content-two-one{
+  margin-top: 20px;
+  width: 296px;
+  height: 40px;
+  /*border: 2px dashed red;*/
+  line-height: 40px;
+  font-weight:bold ;
+  background-color: red;
+  color: white;
+  font-family: fantasy;
+  font-size: 20px;
+  letter-spacing: 0.1px;
+}
+.army-home-content-two-one:hover{
+  color: red;
+  background-color: #4b5320;
+  font-size: ;
+  
+}
+
+
+
+
+.army-home-content-two-two{
+  width: 300px;
+  height: 50px;
+  /*border: 2px dashed red;*/
+  line-height: 40px;
+  font-weight:bold ;
+  text-align: left;
+  background-color:red;
+  line-height: 50px;
+  color: white;
+  font-size: 20px;
+}
+.army-home-content-two-three{
+  height: 340px;
+  width: 300px;
+  /*border: 1px solid grey;*/
+  /*border-bottom: 1px outset gray;*/
+  background-color: white;
+  border-radius: 5px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.army-news-link{
+  height: 320px;
+  width: 300px;
+  /*border: 1px solid grey;*/
+  text-decoration: none;
+  color: blue;
+  padding: 10px;
+
+
+}
+.army-news-link-Link{
+  text-decoration: none;
+  color: red;
+}
+.army-news-link-Link:hover{
+color: red;
+text-decoration: underline;
+ 
+}
+
+
+
+/*.Home-gallery-slide{
+
+  height: 500px;
+  width: 1400px;
+  margin: auto;
+  border: 1px solid black;
+}*/
+/*===================================================================*/
+
+
+
+/*==============================Army=commander_++++++++++++++++++++++++*/
+./*army-comander{
+  position: relative;
+  z-index: -1;
+
+}*/
+
+
+/*==================================================Army ====== chief=========================================*/
+.army-chief-heading{
+  height: 100px;
+  line-height: 100px;
+  /*background: linear-gradient(black);*/
+  background-color: #4b5320;
+  /*border: 1px none grey;*/
+}
+.army-chief-heading h1{
+  font-size: 30px;
+  margin-left: -600px;
+  color: white;
+}
+/**/
+.general-mm{
+  height: 700px;
+  width: 1000px;
+  background-color: lightcyan;
+border-radius: 10px;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  /*border: 1px solid black;*/
+}
+.army-chief-img{
+  padding: 10px;
+  height: 400px;
+  width:250px;
+  /*border: 1px solid black;*/
+  /*box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;*/
+  float: left;
+}
+.army-chief-img img{
+  width: 250px;
+  /*border: 2px solid black;*/
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.army-chief-img p{
+  font-size: 18px;
+
+  text-align: justify;
+  width: 250px;
+  font-weight: bold;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  /*background-color: #79BD9A;*/
+  background-color: lightcyan;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;}
+
+.army-chief-p{
+  height: 700px;
+  width:720px;
+  /*border: 1px solid black;*/
+  border-radius: 10px;
+  float: right;
+  background-color: lightcyan;
+}
+.army-chief-p p{
+  
+  padding-top: 20px;
+  width: 600px;
+  margin: auto;
+  text-align: justify;
+  font-size:px;
+  line-height: 25px;
+  word-spacing: 1px;
+  /*border: 1px solid black;*/
+
+
+}
+
+
+
+
+/*==================================Army==vice =chief===========================================*/
+.App-army-leader{
+  background-color: #9FAEAF;
+  position: relative;
+  z-index: -1;
+}
+.army-vice-chief-heading{
+  height: 100px;
+  line-height: 100px;
+  /*background: linear-gradient(black);*/
+  background-color: #4b5320;
+  /*border: 1px none grey;*/
+}
+.army-vice-chief-heading h1{
+  font-size: 30px;
+  margin-left: -600px;
+  color: white;
+}
+/**/
+.Lt-Gen-CP{
+  height: 1500px;
+  width: 1160px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: lightcyan;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  /*border: 1px solid black;*/
+}
+.army-vice-chief-img{
+padding: 10px;
+  height: 400px;
+  width:200px;
+  /*border: 1px solid black;*/
+  float: left;
+}
+.army-vice-chief-img img{
+  width: 240px;
+  /*border: 2px solid black;*/
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  
+}
+.army-vice-chief-img p{
+  font-size: 18px;
+  text-align: justify;
+  width: 240px;
+  font-weight: bold;
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius:5px;
+  /*background-color: #79BD9A;*/
+  background-color: lightcyan;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.army-vice-chief-p{
+  height: 1500px;
+  width:895px;
+  border-radius: 10px;
+  padding: 10px;
+  /*border: 1px solid black;*/
+  float: right;
+  background-color: lightcyan;
+}
+.army-vice-chief-p p{
+  width: 890px;
+  height:1500px;
+  margin: auto;
+  text-align: justify;
+  font-size:15px;
+  line-height: 25px;
+  word-spacing: 1px;
+  padding: 10px;
+  /*border: 1px solid red;*/
+}
+
+/*=================================Army-comander===============================*/
+.army-commander-heading{
+  height: 100px;
+  line-height: 100px;
+  /*background: linear-gradient(black);*/
+  background-color: #4b5320;
+  /*border: 1px none grey;*/
+}
+.army-commander-heading h1{
+  font-size: 30px;
+  margin-left: -600px;
+  color: white;
+}
+/**/
+.commander-img-p{
+  height: 800px;
+  width: 1140px;
+  margin: auto;
+   box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  /*border: 1px solid black;*/
+}
+.commander-nain{
+  height: 800px;
+  width: 1140px;
+  border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  margin: auto;
+  background-color: lightcyan;
+
+}
+.commander-manoj{
+  height: 600px;
+  width: 1140px;
+  margin: auto;
+  background-color: lightcyan;
+
+  border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.commander-rp-singh{
+  background-color: lightcyan;
+
+  height: 420px;
+  width: 1140px;
+  margin: auto;
+  border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.commander-yogendra{
+  height: 600px;
+  background-color: lightcyan;
+
+  width: 1140px;
+  margin: auto;
+  border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+
+.commander-yk-joshi{
+  background-color: lightcyan;
+
+  height: 500px;
+  width: 1140px;
+  margin: auto;
+  border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.commander-raj-shukla{
+  background-color: lightcyan;
+
+  height: 550px;
+  width: 1140px;
+  margin: auto;
+  border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.army-commander-img{
+  height: 400px;
+  width:200px;
+  /*border: 1px solid black;*/
+  float: left;
+  padding: 10px;
+  
+}
+.army-commander-img img{
+  /*padding: 10px;*/
+  width: 220px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+  /*border: 2px solid black;*/
+}
+.army-commander-img p{
+  /*padding: 10px;*/
+  font-size: 18px;
+  text-align: left;
+  width: 220px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  font-weight: bold; 
+}
+
+.army-commander-p{
+  height: 790px;
+  width:890px;
+  /*border: 1px solid black;*/
+  /*border-bottom: 1px solid grey;*/
+  float: right;
+  /*box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;*/
+}
+.army-commander-p p{
+  width: 890px;
+  margin: auto;
+  text-align: justify;
+  font-size:15px;
+  line-height: 25px;
+  word-spacing: 1px;
+  /*border: 1px solid black;*/
+  padding: 10px;
+}
+
+
+.army-commander-p-2{
+  height: 570px;
+  width:890px;
+  /*border: 1px solid black;*/
+  /*border-bottom: 1px solid grey;*/
+  float: right;
+}
+.army-commander-p-2 p{
+   width: 890px;
+  margin: auto;
+  text-align: justify;
+  font-size:15px;
+  line-height: 25px;
+  word-spacing: 1px;
+  /*border: 1px solid black;*/
+padding: 10px;
+}
+
+
+.army-commander-p-3{
+  height: 420px;
+  width:890px;
+  /*border: 1px solid black;*/
+  /*border-bottom: 1px solid grey;*/
+  float: right;
+}
+.army-commander-p-3 p{
+   width: 890px;
+  margin: auto;
+  text-align: justify;
+  font-size:15px;
+  line-height: 25px;
+  word-spacing: 1px;
+  /*border: 1px solid black;*/
+  padding: 10px;
+}
+
+.army-commander-p-4{
+  height: 600px;
+  width:890px;
+  /*border: 1px solid black;*/
+  /*border-bottom: 1px solid grey;*/
+  float: right;
+}
+.army-commander-p-4 p{
+   width: 890px;
+  margin: auto;
+  text-align: justify;
+  font-size:15px;
+  line-height: 25px;
+  word-spacing: 1px;
+  /*border: 1px solid black;*/
+  padding: 10px;
+}
+
+.army-commander-p-5{
+  height: 500px;
+  width:890px;
+  /*border: 1px solid black;*/
+  /*border-bottom: 1px solid grey;*/
+  float: right;
+}
+.army-commander-p-5 p{
+   width: 890px;
+  margin: auto;
+  text-align: justify;
+  font-size:15px;
+  line-height: 25px;
+  word-spacing: 1px;
+  /*border: 1px solid black;*/
+  padding: 10px;
+}
+
+.army-commander-p-6{
+  height: 550px;
+  width:890px;
+  /*border: 1px solid black;*/
+  /*border-bottom: 1px solid grey;*/
+  float: right;
+}
+.army-commander-p-6 p{
+   width: 890px;
+  margin: auto;
+  text-align: justify;
+  font-size:15px;
+  line-height: 25px;
+  word-spacing: 1px;
+  /*border: 1px solid black;*/
+  padding: 10px;
+}
+
+
+
+
+
+/*=================================Army-Deputy-chief===============================*/
+.deputy-heading{
+  height: 100px;
+  line-height: 100px;
+  /*background: linear-gradient(black);*/
+  background-color: #4b5320;
+  /*border: 1px none grey;*/
+}
+.deputy-heading h1{
+  font-size: 30px;
+  margin-left: -600px;
+  color: white;
+}
+/**/
+.deputy-chief-1{
+  height: 450px;
+  width: 1040px;
+  margin: auto;
+  background-color: lightcyan;
+  /*border: 1px solid black;*/
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  border-radius: 10px;
+}
+.deputy-chief-2{
+  height: 570px;
+  width: 1040px;
+  margin: auto;
+  background-color: lightcyan;
+  /*border: 1px solid black;*/
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  border-radius: 10px;
+}
+
+.deputy-img{
+  height: 400px;
+  width:200px;
+  /*border: 1px solid black;*/
+  float: left;
+  padding: 10px;
+
+}
+.deputy-img img{
+  width: 220px;
+  /*border: 2px solid black;*/
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.deputy-img p{
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  width: 220px; 
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.deputy-p{
+  height: 450px;
+  width:800px;
+  /*border: 1px solid black;*/
+  /*border-bottom: 1px solid grey;*/
+  float: right;
+}
+.deputy-p-2{
+  height: 570px;
+  width:800px;
+  /*border: 1px solid black;*/
+  /*border-bottom: 1px solid grey;*/
+  float: right;
+}
+
+
+.deputy-p p{
+  width: 800px;
+  margin: auto;
+  text-align: justify;
+  font-size:15px;
+  line-height: 25px;
+  word-spacing: 1px;
+  /*border: 1px solid black;*/
+  padding: 10px;
+}
+.deputy-p-2 p{
+   width: 800px;
+  margin: auto;
+  text-align: justify;
+  font-size:15px;
+  line-height: 25px;
+  word-spacing: 1px;
+  /*border: 1px solid black;*/
+  padding: 10px;
+}
+
+
+/*========================================================ORGANISATION OF MINISTRY OF DEFENCE============================*/
+
+/*====================================About IDea Or Our Ethos=======================*/
+.about-idea-ethos{
+  width:100%px;
+  height: 2550px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+
+.about-idea-ethos-content{
+/*height: 100%;*/
+height: 2550px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+background-color: lightcyan;
+float: left;
+}
+.about-idea-ethos-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.about-idea-ethos-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+
+}
+.ethos-img{
+  width: 850px;
+}
+.about-idea-ethos-content p{
+  text-align: justify;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  background-color:lightcyan;
+  /*font-family: fantasy;*/
+}
+.ethos-img-2{
+  width: 570px;
+}
+.ethos-img-3{
+  width: 640px;
+
+}
+
+
+
+.about-idea-ethos-link{
+      width: 19%;
+    height: 350px;
+    margin-top:70px;
+    margin-right: 80px;
+    /*border: 1px solid black;*/
+    float: right;
+    float: right;
+  background-color:aqua;
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  /*color: white;*/
+  /*color: black;*/
+  /*font-weight: bold;*/
+/*box-shadow: 3px 3px red, -3px 4px red;*/
+/*box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;*/
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.about-idea-ethos-link h3{
+  background-color: lightcyan;
+  width: 107%;
+  height:50px;
+  line-height: 50px;
+  margin-left: -10px;
+  font-size: 30px;
+  text-align: left;
+  color: gray;
+}
+.about-idea-ethos-link p{
+  text-align: left;
+  font-size: 15px;
+  color: black;
+
+}
+
+.about-side-link{
+  text-decoration: none;
+  color: black;
+}
+.about-side-link:hover{
+  color: orangered;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 2px;
+  text-decoration: underline;
+
+}
+
+/*-----------------about-org-defence -ministory--------------*/
+ .about-org-def{
+  width:100%px;
+  height: 900px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+
+.about-org-def-content{
+/*height: 100%;*/
+height: 890px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+background-color: lightcyan;
+float: left;
+}
+.about-org-def-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.about-org-def-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+
+}
+
+.about-org-def-content p{
+  text-align: justify;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  background-color:lightcyan;
+  /*font-family: fantasy;*/
+  color:;
+
+}
+
+
+/*----------------------------ABout structure---===============*/
+ .about-structure{
+  width:100%px;
+  height: 800px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+
+.about-structure-content{
+/*height: 100%;*/
+height: 700px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+float: left;
+}
+.about-structure-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.about-structure-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+
+}
+
+.about-structure-content p{
+  text-align: justify;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  /*background-color:lightcyan;*/
+  /*font-family: fantasy;*/
+  color:;
+
+}
+
+
+
+.about-structure-img{
+height: 700px;
+width: 990px;
+}
+
+
+/*========================================about-theme of the year====================*/
+.about-theme{
+  /*position: relative;*/
+  /*z-index: -1;*/
+  width:100%px;
+  height: 500px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+
+.about-theme-content{
+/*height: 100%;*/
+height: 500px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+float: left;
+}
+.about-theme-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.about-theme-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+
+}
+
+.about-theme-content p{
+  text-align: justify;
+  
+  font-size: 18px;
+  padding: 5px;
+  word-spacing: 10px;
+  line-height: 28px;
+  /*letter-spacing: 10px;*/
+  /*background-color:lightcyan;*/
+  /*font-family: fantasy;*/
+  color:;
+
+}
+
+/*////////////////////////////////////explore army Inter Services Establishments same as structure of army/////////////////////////////////////////////////////*/
+/*.exploreestable-1{
+ border: 1px hidden black;
+}
+.exploreestable-1 img{
+  width: 900px;
+}*/
+
+/*=======================================explre army sport===========*/
+.explore-sport{
+  width:100%px;
+  height: 2000px;
+  border: 1px solid black;
+  margin: auto;
+  background-color: #e8e8e8;
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.explore-sport-content{
+/*height: 100%;*/
+height: 2000px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+border: 1px solid black;
+/*background-color: lightcyan;*/
+float: left;
+}
+.explore-sport-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.explore-sport-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+
+}
+
+.explore-sport-content p{
+  text-align: justify;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  /*background-color:lightcyan;*/
+  /*font-family: fantasy;*/
+  color:;
+
+}
+.explore-sport-div-1{
+  margin-top: 20px;
+  width: 490px;
+  height: 480px;
+  border: 1px solid black;
+  float: left;
+}
+.explore-sport-img{
+  width: 480px;
+  height: 200px;
+}
+.explore-sport-div-1 p{
+   width: 480px;
+   margin: auto;
+  background-color: lightcyan;
+}
+
+.explore-sport-div-2{
+  margin-top: 20px;
+  width: 490px;
+  height: 480px;
+  border: 1px solid black;
+  float: right;
+}
+
+.explore-sport-div-2 p{
+   width: 480px;
+   margin: auto;
+  background-color: lightcyan;
+}
+/*==============================Explore-Advanture--------------------------------*/
+
+.expl-advanture{
+  /*position: relative;*/
+  /*z-index: -1;*/
+  width:100%px;
+  height: 500px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+
+.expl-advanture-content{
+/*height: 100%;*/
+height: 500px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+float: left;
+}
+.expl-advanture-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.expl-advanture-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+
+}
+
+.expl-advanture-content p{
+  text-align: justify;
+  line-height:22px;
+  font-size: 16px;
+  padding: 5px;
+  word-spacing: 10px;
+  line-height: 25px;
+  /*letter-spacing: 10px;*/
+  /*background-color:lightcyan;*/
+  /*font-family: fantasy;*/
+  color:;
+
+}
+/*=============================Explore War===============*/
+.explore-war{
+  /*position: relative;*/
+  /*z-index: -1;*/
+  width:1298px;
+  height: 1900px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.explore-war-div1{
+  height: 500px;
+  width: 324px;
+  float: left;
+  border: 13px solid #e8e8e8;
+}
+.explore-war-div1 img{
+  width: 298px;
+  height: 200px;
+}
+.explore-war-div1 p{
+  text-align: justify;
+  font-style: inherit;
+  color:#CD853F;
+  background-color:#F0F8FF;
+  padding: 5px;
+
+
+}
+.explore-war-div1 p:hover{
+background-color: saddlebrown;
+color: white;
+}
+.explore-war-div2 p:hover{
+background-color: saddlebrown;
+color: white;
+}
+.explore-war-div3 p:hover{
+background-color: saddlebrown;
+color: white;
+}
+.explore-war-div4 p:hover{
+background-color: saddlebrown;
+color: white;
+}
+
+.explore-war-div2{
+  height: 455px;
+  width: 324px;
+  float: left;
+  border: 13px solid #e8e8e8;
+}
+.explore-war-div2 img{
+  width: 298px;
+  height: 200px;
+}
+.explore-war-div2 p{
+  text-align: justify;
+  font-style: inherit;
+  color:#CD853F;
+  background-color:#F0F8FF;
+  padding: 5px;
+
+
+}
+
+.explore-war-div3{
+  height: 430px;
+  width: 324px;
+  float: left;
+  border: 13px solid #e8e8e8;
+}
+.explore-war-div3 img{
+  width: 298px;
+  height: 200px;
+}
+.explore-war-div3 p{
+  text-align: justify;
+  font-style: inherit;
+  color:#CD853F;
+  background-color:#F0F8FF;
+  padding: 5px;
+
+
+}
+
+.explore-war-div4{
+  height: 453px;
+  width: 324px;
+  float: left;
+  border: 13px solid #e8e8e8;
+}
+.explore-war-div4 img{
+  width: 298px;
+  height: 200px;
+}
+.explore-war-div4 p{
+  text-align: justify;
+  font-style: inherit;
+  color:#CD853F;
+  background-color:#F0F8FF;
+  padding: 5px;
+
+}
+/*==========================Contact========================*/
+.contact-body{
+  /*position: relative;*/
+  /*z-index: -1;*/
+  background: url(https://wallpapercave.com/wp/wp3991335.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+   
+}
+.contact-main-div{
+  width: 1200px;
+  margin: auto;
+  border: 1px groove; 
+  height: 100%;
+  opacity: 0.9;
+}
+.row_border{
+  border: 1px solid white ;
+  /*width: 1200px;*/
+  line-height: 30px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+.col_border{
+  /*border: 1px groove ;*/
+  border: 1px solid white;
+
+  width: 1200px;
+}
+.row_content{
+  background-color:grey;
+  /*border: 1px solid white;*/
+}
+
+.col_content{
+  /*border: 1px groove ;*/
+  border: 1px solid white;
+  color: white;
+  text-align: left;
+  /*line-height: 10px;*/
+
+}
+.col_content:hover{
+  color: white;
+  background-color:saddlebrown;
+}
+
+.col_content_bold{
+  font-weight: bold;
+}
+.contact-email-color{
+  color: red;
+}
+.contact-email-color:hover{
+color: black;
+}
+.line-height-contact{
+  line-height: 30px;
+}
+.col-content p{
+  text-align: left;
+}
+
+/*==========================news-api==============================================*/
+.api-background{
+  background-color: aqua;
+  position: relative;
+  z-index: -1;
+}
+.api-heading{
+  height:80px;
+  line-height: 80px;
+  font-weight: bolder;
+  color: aqua;
+  font-size: 25px;
+  background-color: red;
+  /*font-family: fantasy;*/
+  word-spacing: 10px;
+  letter-spacing: 2px;
+}  
+
+
+
+
+
+/*-------------------------------Slider----------------------*/
+
+.sliderrrrrr{
+  opacity: 1;
+}
+
+
+./*Appppp{
+  background-color:gray;
+  position: relative;
+  z-index: -1;
+}*/
+
+.home-slider-div{
+
+  height: 650px;
+  width: 1519px;
+  border:1px solid white;
+}
+
+.Carousel{
+  position: relative;
+  z-index: -1;
+  margin-top: -652px;
+  margin-left: -759px;
+  opacity: 1;
+  padding: 0;
+  width: 3035px;
+  height: 1290px;
+  /*border: 1px solid whitesmoke;*/
+}
+.Carousel:hover{
+   -webkit-animation-play-state: paused; 
+   animation-play-state: paused;
+}
+
+.image-height-width:hover{
+   -webkit-animation-play-state: paused; 
+   animation-play-state: paused;
+}
+.image-height-width{
+  /*margin-top: -200px;*/
+  height: 1300px;
+
+}
+
+
+.home-caurosal-h{
+  /*width: 1200px;*/
+  text-align: left;
+  margin-left: -300px;
+  font-size: 60px;
+  color: red;
+}
+.home-caurosal-h1{
+  /*width: 1200px;*/
+  text-align: left;
+  margin-left: -300px;
+  font-size: 60px;
+  /*color: red;*/
+}
+.home-caurosal-p{
+  /*width: 1200px;*/
+  text-align: left;
+  margin-left: -300px;
+  font-size: 45px;
+}
+
+
+
+
+/*==================================KNow Army======================*/
+.knowarmy{
+  width:100%px;
+  height: 690px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.knowarmy-content{
+/*height: 100%;*/
+height: 650px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+float: left;
+}
+.knowarmy-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.knowarmy-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+
+}
+
+.knowarmy-content p{
+  text-align: justify;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  /*background-color:lightcyan;*/
+  /*font-family: fantasy;*/
+  color:;
+
+}
+.knowarmy-img{
+height: 600px;
+width: 990px;
+}
+/*----------side-link--------*/
+
+.knowarmy-main-side-link{
+      width: 18%;
+    height: 500px;
+    line-height: 15px;
+    /*margin-top:70px;*/
+    margin-right: 80px;
+    /*border: 1px solid black;*/
+    float: right;
+    float: right;
+  /*background-color:#9eeef1;*/
+  border-radius: 10px;
+  text-align: left;
+  padding: 10px;
+  /*color: white;*/
+  /*color: black;*/
+  /*font-weight: bold;*/
+/*box-shadow: 3px 3px red, -3px 4px red;*/
+box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+/*box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;*/
+/*box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;*/
+}
+
+.knowarmy-main-side-link h3{
+  background-color: lightcyan;
+  width: 107%;
+  height:50px;
+  line-height: 50px;
+  margin-left: -10px;
+  font-size: 30px;
+  text-align: left;
+  color: gray;
+}
+.knowarmy-side-link p{
+  text-align: left;
+  font-size: 15px;
+  color: black;
+
+}
+
+.knowarmy-side-link{
+  text-decoration: none;
+  color: black;
+  border: 1px ;
+}
+.knowarmy-side-link:hover{
+  color: orangered;
+  /*font-size: 15px;*/
+  font-weight: bold;
+  margin-left: 1px;
+  text-decoration: underline;
+
+}
+
+/*===============================================Know army-history=================*/
+.knowarmy-history{
+  width:100%;
+  height: 4750px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*background-color: white;*/
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+
+.knowarmy-history-content{
+/*height: 100%;*/
+height: 2550px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+background-color: white;
+float: left;
+}
+.knowarmy-history-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.knowarmy-history-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+/*background-color: white;*/
+
+}
+.ethos-img{
+  width: 850px;
+}
+.knowarmy-history-content p{
+  text-align: justify;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  word-spacing:8px;
+  /*background-color:white;*/
+  background-color: #e8e8e8;
+  /*font-family: fantasy;*/
+}
+/*.knowarmy-history-content p:hover{
+background-color: grey;
+color: white;
+}*/
+.ethos-img-2{
+  width: 570px;
+}
+.ethos-img-3{
+  width: 640px;
+
+}
+
+/*=================================Role===========================*/
+
+.knowarmy-role{
+  width:100%;
+  height:550px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*background-color: white;*/
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+
+.knowarmy-role-content{
+/*height: 100%;*/
+height: 60px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+background-color: white;
+float: left;
+}
+.knowarmy-role-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.knowarmy-role-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+/*background-color: white;*/
+
+}
+
+.knowarmy-role-content p{
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;*/
+  text-align: justify;
+  line-height:22px;
+  font-size: 18px;
+  padding: 5px;
+  color: black;
+  word-spacing:8px;
+  /*background-color:white;*/
+  background-color: #e8e8e8;
+  /*font-family: fantasy;*/
+}
+/*--------------------------------Know army-task==================*/
+.knowarmy-task{
+  width:100%;
+  height:550px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*background-color: white;*/
+  /*border-top-right-radius: 10px;*/
+  /*box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;*/
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+
+.knowarmy-task-content{
+/*height: 100%;*/
+height: 60px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+background-color: white;
+float: left;
+}
+.knowarmy-task-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.knowarmy-task-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+/*background-color: white;*/
+
+}
+
+.knowarmy-task-content p{
+  /*box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;*/
+  text-align: justify;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  color: black;
+  word-spacing:8px;
+  /*background-color:white;*/
+  background-color: #e8e8e8;
+  /*font-family: fantasy;*/
+}
+/*====================================same as Role css and html===========================*/
+.knowarmy-structrure-img{
+  height: 600px;
+  width: 800px;
+}
+
+/*=============================COMBATEDGE++++++++++++++++++++++++SAME AS HOSTORY+++++++++++*/
+.knowarmy-combat{
+  width:100%;
+  height:4470px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*background-color: white;*/
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+.knowarmy-combat-content{
+/*height: 100%;*/
+height: 60px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+background-color: white;
+float: left;
+}
+.knowarmy-combat-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.knowarmy-combat-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+/*background-color: white;*/
+
+}
+
+
+
+
+.knowarmy-combat-content p{
+  text-align: justify;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  color: black;
+  word-spacing:8px;
+  /*background-color:white;*/
+  background-color: #e8e8e8;
+  /*font-family: fantasy;*/
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.knowarmy-combat-content p h3{
+font-size: 18px;
+/*font-weight: bolder;*/
+/*word-spacing:10px;  */
+text-decoration: underline;
+
+
+}
+/*========================command and control css same as rolknow css======================*/
+
+/*============================Know army-Leedership----------------------*/
+.knowarmy-leedership{
+  width:100%;
+  height:3670px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*background-color: white;*/
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+/*.about-idea-ethos-content{
+  width:75%;
+  margin-left: 80px;
+  height: 2550px;
+  
+  float: left;
+  background-color: white;
+}*/
+.knowarmy-leedership-content{
+/*height: 100%;*/
+height: 60px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+background-color: white;
+float: left;
+}
+.knowarmy-leedership-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.knowarmy-leedership-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+/*background-color: white;*/
+
+}
+
+.knowarmy-leedership-content p{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  text-align: justify;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  color: black;
+  word-spacing:8px;
+  /*background-color:white;*/
+  background-color: #e8e8e8;
+  /*font-family: fantasy;*/
+}
+.knowarmy-leedership-content p h4{
+font-size: 18px;
+font-weight: bold;  
+
+
+}
+
+/*===============================know-army===========Modernisation---------------------*/
+.knowarmy-modernation{
+  width:100%;
+  height: 700px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*background-color: white;*/
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.knowarmy-modernation-content{
+/*height: 100%;*/
+height:650px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+background-color: white;
+float: left;
+}
+.knowarmy-modernation-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.knowarmy-modernation-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+/*background-color: white;*/
+
+}
+.knowarmy-modernation-content p{
+  text-align: justify;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  word-spacing:8px;
+  /*background-color:white;*/
+  background-color: #e8e8e8;
+  /*font-family: fantasy;*/
+}
+
+/*=====================================AFSPA=========================knowarmy==========*/
+.knowarmy-afspa{
+  width:100%;
+  height: 2100px;
+  /*border: 1px solid black;*/
+  margin: auto;
+  background-color: #e8e8e8;
+  /*background-color: white;*/
+  /*border-top-right-radius: 10px;*/
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.knowarmy-afspa-content{
+/*height: 100%;*/
+height:2000px;
+width: 1000px;
+margin-left: 80px;
+/*width:75%;*/
+/*border: 1px solid black;*/
+/*background-color: lightcyan;*/
+background-color: white;
+float: left;
+}
+.knowarmy-afspa-content h3{
+  font-family: fantasy;
+  margin-bottom: -15px;
+  background-color: #e8e8e8;
+}
+.knowarmy-afspa-content h3 p{
+font-size: 22px;
+text-align: center;
+color: gray;
+font-family: fantasy;
+/*font-weight: bold;*/
+background-color: #e8e8e8;
+/*background-color: white;*/
+
+}
+.knowarmy-afspa-content p{
+  text-align: justify;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  line-height:22px;
+  font-size: 15px;
+  padding: 5px;
+  word-spacing:8px;
+  /*background-color:white;*/
+  background-color: #e8e8e8;
+  /*font-family: fantasy;*/
+}
+
+.knowarmy-afspa-content p h3{
+font-size: 15px;
+text-decoration: underline;
+font-weight: normal;
+ 
+}
+
+/*---------------------------footer-------------------*/
+
+.army-footer{
+  height: 180px;
+  background-color: black;
+  color: white;
+ }
+
+.army-footer-1{
+  padding-top: 20px;
+  /*margin-top: 20px;*/
+  border: 1px solid none;
+  height: 140px;
+  width: 1000px;
+  color: white;
+  margin: auto;
+}
+.army-footer-2{
+  border: 1px solid none;
+  height: 35px;
+  width: 80px;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  margin-left: 100px;
+  /*color: #61dafb;*/
+color: white;
+  text-decoration: none;
+  /* text-decoration: darkblue; */
+}
+.army-footer-2:hover{
+  /*color: tomato;*/
+    color: red;
+border-radius: 10px;
+  background-color: white;
+  font-size: 21px;
+}
+.army-footer-3{
+  border: 1px solid none;
+  height: 42px;
+  width: 900px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 10px;
+  text-align: left;
+  /*color: #61dafb;*/
+  color: white;
+ 
+}
+.army-footer-4{
+  border: 1px solid none;
+  height: 33px;
+  width: 140px;
+  font-size: 20px;
+  text-align: center;
+  float: right;
+  /*color: #61dafb;*/
+  color: white;
+  text-decoration: none;
+  margin-top: -24px;
+}
+.army-footer-4:hover{
+  /*color: tomato;*/
+  color: red;
+border-radius: 10px;
+  background-color: white;
+  font-size: 21px;
+}
+.army-footer-5{
+  border: 1px solid none;
+  /*height: 50px;*/
+  width: 900px;
+  float: left;
+  margin-left: 50px;
+  text-align: left;
+  /*color: #61dafb;*/
+  color: white;
+ 
+}
+.army-footer-6{
+  border: 1px solid none;
+  /*height: 0px;*/
+  width: 200px;
+  margin: auto;
+}
+.army-footer-image{
+  /*height: 45px;*/
+  width: 45px;
+  margin-left: 18px;
+}
+.army-footer-image-fb{
+  height: 60px;
+   /*height: 45px;*/
+  width: 55px;
+  margin-left: 18px;
+}
+
+.sliderrrrrr{
+  opacity: 1;
+}
+
+
+.Appppp{
+  background-color:lightcyan;
+}
+.d-block w-100{
+  height: 1000px;}
